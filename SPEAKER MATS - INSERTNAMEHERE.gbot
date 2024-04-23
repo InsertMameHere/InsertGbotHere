@@ -342,8 +342,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Acquiescence"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -358,7 +367,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -392,8 +401,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Elemental Core"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -408,7 +426,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -442,8 +460,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Garish Remnant"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -458,7 +485,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -492,8 +519,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Prismatic Seams"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -508,7 +544,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -542,8 +578,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unbound Thread"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -558,7 +603,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -592,8 +637,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Willpower"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -608,7 +662,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -642,8 +696,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Fire Avatar's Favor"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -658,7 +721,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -692,8 +755,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 7,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "ShadowChaos Mote"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -708,7 +780,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -742,8 +814,26 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 9,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Enchanted Scale"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "DragonSlayer"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -758,7 +848,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 8,
         "IndexString": ""
       },
       {
@@ -792,8 +882,35 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 11,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Brilliant Aura"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Blinding Aura"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Blinding Mace of Destiny"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -808,7 +925,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 10,
         "IndexString": ""
       },
       {
@@ -842,8 +959,26 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 9,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Blinding Aura"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Blinding Scythe of Destiny"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -858,7 +993,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 8,
         "IndexString": ""
       },
       {
@@ -892,8 +1027,53 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 15,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Overwhelmed Axe"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Blinding Light of Destiny"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Purification Orb"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Rainbow Moonstone"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Desolich''s Dark Horn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -908,7 +1088,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 4,
+        "Index": 14,
         "IndexString": ""
       },
       {
@@ -973,11 +1153,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Acquiescence"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -1283,11 +1458,6 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Elemental Core"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -1589,11 +1759,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Garish Remnant"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -1899,11 +2064,6 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Prismatic Seams"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -2069,11 +2229,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Unbound Thread"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -2369,11 +2524,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Willpower"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -2679,11 +2829,6 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Fire Avatar's Favor"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -2934,11 +3079,6 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "ShadowChaos Mote"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -3106,16 +3246,6 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Enchanted Scale"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "DragonSlayer"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -3281,21 +3411,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Brilliant Aura"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Blinding Aura"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Blinding Mace of Destiny"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -3489,16 +3604,6 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Blinding Aura"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Blinding Scythe of Destiny"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -3664,31 +3769,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Overwhelmed Axe"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Blinding Light of Destiny"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Purification Orb"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Rainbow Moonstone"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Desolich''s Dark Horn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -4257,12 +4337,6 @@
       "Purified Undead Dragon Essence",
       "Desolich's Dark Horn"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
