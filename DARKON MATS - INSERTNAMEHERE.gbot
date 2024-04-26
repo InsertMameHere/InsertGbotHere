@@ -184,6 +184,13 @@
         "Value2": "Yes"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "farmNevannasRevelation",
+        "Value2": "Yes"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "<-- Quantities -->",
         "Alpha": 255,
@@ -295,6 +302,13 @@
         "Text": "Set Temporary Variable",
         "Value1": "quantityTheSunsEnlightenment",
         "Value2": "19"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "quantityNevannasRevelation",
+        "Value2": "16"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1267,6 +1281,65 @@
         "B": 220
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[farmNevannasRevelation]",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "farmNevannasRevelation",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 7,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Nevanna's Revelation"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Nevanna's Revelation",
+        "Value2": "[quantityNevannasRevelation]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "NEVANNAS REVELATION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 6,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
       },
@@ -1275,7 +1348,8 @@
         "Map": "whitemap-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
@@ -1337,7 +1411,8 @@
         "Map": "astraviajudge-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -1638,7 +1713,8 @@
         "Map": "firstobservatory-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -1940,7 +2016,8 @@
         "Map": "astraviacastle-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -2242,7 +2319,8 @@
         "Map": "hbchallenge-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -2419,7 +2497,8 @@
         "Map": "doomvault-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
@@ -2558,7 +2637,8 @@
         "Map": "towerofdoom7-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
@@ -2681,7 +2761,8 @@
         "Map": "astravia-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -2847,7 +2928,8 @@
         "Map": "genesisgarden-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -3186,7 +3268,8 @@
         "Map": "eridani-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -3352,7 +3435,8 @@
         "Map": "astraviapast-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -3694,7 +3778,8 @@
         "Map": "theworld-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -3854,7 +3939,8 @@
         "Map": "eridanipast-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -4143,7 +4229,8 @@
         "Map": "firstobservatory-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -4290,7 +4377,8 @@
         "Map": "astravia-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -4437,7 +4525,8 @@
         "Map": "astraviacastle-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
@@ -4546,6 +4635,154 @@
         "R": 220,
         "G": 220,
         "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Nevanna's Revelation -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "NEVANNAS REVELATION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "gaiazor-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[waitForParty]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Count is greater than",
+        "Value1": "3",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "FARM NEVANNAS REVELATION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r7",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
+        "Label": "AtkNevanna",
+        "Packet": "%xt%zm%aggroMon%14252%23%",
+        "Delay": 350
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "DROP NEVANNAS REVELATION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Nevanna's Revelation",
+        "Value2": "[quantityNevannasRevelation]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "DROP NEVANNAS REVELATION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
+        "ActionW": 1,
+        "Label": "AtkNevanna",
+        "Packet": "-LEAVE ME BLANK-",
+        "Delay": 6969
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "CHECKS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       }
     ]
   },
@@ -4584,14 +4821,9 @@
       "Jus Divinum Scale",
       "Empress' Finger's Ring",
       "The Moon's Reflection",
-      "The Sun's Enlightenment"
+      "The Sun's Enlightenment",
+      "Nevanna's Revelation"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
