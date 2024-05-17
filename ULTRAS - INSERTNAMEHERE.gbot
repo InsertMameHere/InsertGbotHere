@@ -9833,14 +9833,9 @@
       "King Drago Insignia",
       "Malgor Insignia",
       "Nulgath Insignia",
-      "Warden Insignia"
+      "Warden Insignia",
+      "The First Speaker Silenced"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
