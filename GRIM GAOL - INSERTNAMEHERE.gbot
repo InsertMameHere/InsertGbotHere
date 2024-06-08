@@ -152,6 +152,13 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
+        "Value1": "Penitence",
+        "Value2": "FILL THIS IN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
         "Value1": "Vainglory",
         "Value2": "FILL THIS IN"
       },
@@ -181,13 +188,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Revitalize",
-        "Value2": "Potent Revitalize Elixir"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
         "Value1": "Honor",
         "Value2": "Honor Potion"
       },
@@ -195,7 +195,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Sage",
+        "Value1": "Safe Pot",
         "Value2": "Sage Tonic"
       },
       {
@@ -286,26 +286,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 3,
         "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Sage]",
+        "ItemName": "[Safe Pot]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Honor]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
@@ -420,17 +412,17 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "Dragon of Time",
+        "ItemName": "Void Highlord",
         "Safe": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Elysium]",
+        "ItemName": "[Dauntless]",
         "Safe": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[PneumaHelm]",
+        "ItemName": "[AnimaHelm]",
         "Safe": true
       },
       {
@@ -448,26 +440,13 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 2,
         "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Sage]",
-        "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Honor]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
@@ -493,38 +472,22 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
-        "Index": "3",
-        "Wait": true
+        "Index": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
-        "Index": "2",
-        "Wait": true
+        "Index": "4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
-        "Index": "1",
-        "Wait": true
+        "Index": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
-        "Index": "2",
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "4",
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "2",
-        "Wait": true
+        "Index": "3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonstersLessThan, Grimoire",
@@ -620,26 +583,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 3,
         "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Sage]",
+        "ItemName": "[Safe Pot]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Honor]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
@@ -790,26 +745,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 3,
         "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Sage]",
+        "ItemName": "[Safe Pot]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Honor]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
@@ -825,12 +772,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "ATTACKROOM4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "5",
-        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetAuraLessThan, Grimoire",
@@ -947,7 +888,25 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Vainglory]",
+        "ItemName": "[Penitence]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[usePots]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Honor]",
         "Safe": true
       },
       {
@@ -1099,7 +1058,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 13,
+        "Index": 3,
         "IndexString": ""
       },
       {
@@ -1108,62 +1067,9 @@
         "Safe": true
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "5",
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
-        "Tag": "Aura",
-        "Text": "Player aura value less than",
-        "Value1": "Sage",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Revitalize]",
-        "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "5",
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
-        "Tag": "Aura",
-        "Text": "Player aura value less than",
-        "Value1": "Potent Revitalize Elixir",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Honor]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
@@ -1307,6 +1213,24 @@
         "Safe": true
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[usePots]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Honor]",
+        "Safe": true
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
       },
       {
@@ -1439,12 +1363,30 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[HealerHelm]",
+        "ItemName": "[PneumaHelm]",
         "Safe": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Healer]",
+        "ItemName": "[Vainglory]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[usePots]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Honor]",
         "Safe": true
       },
       {
@@ -1589,6 +1531,24 @@
         "Safe": true
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[usePots]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Honor]",
+        "Safe": true
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
       },
       {
@@ -1727,6 +1687,24 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Vainglory]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[usePots]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Honor]",
         "Safe": true
       },
       {
@@ -1965,26 +1943,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5,
+        "Index": 3,
         "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Sage]",
+        "ItemName": "[Safe Pot]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Honor]",
         "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
@@ -2108,6 +2078,24 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[Vainglory]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[usePots]",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Honor]",
         "Safe": true
       },
       {
@@ -2393,7 +2381,7 @@
     ]
   },
   "Author": "",
-  "Description": "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",
+  "Description": "H4sIAAAAAAAEAO1925LbRrbluyL0D3gZj93jtpE3XLofTkiybGlakn0kdXd0DOchkZciWiRBAyiV6jh0vn3WBsALSIIFsMo+njhdtqpAMHMjc+faa6+dRKF+mZW1ZzNtnV/o1RULuZrpVZU338z6inHFZ9embeHDWfu9qqu5t5mZd4eLwswFU2HUvpznvZdZ3r7YXCOVkdq88K59Wc/d0u3e3b70Lty9MFX4y8wXq7rOFjgIZzBt82Dmy2KpVzNv5rqsXI3z6/Jn/svsD7O1XhWVC0KO/6JQhCqU+MdxJD+/z5euCt64m+Atdf/zZ5gUcopNstXaJNt4/fmZXmZlroPXup7/+fPjR2Qy3pqsbvKqOm/SN8PjjfGNyUUOm83wFhjTP4sSRuHQh55+M1qb7V2BPbyD5/mefT7NM+K0Z4JX+dW87saf7dsXDz9+rEC+2tifBJYJK7C7gvpVVmBnP3ogbG58v7McP/zI5ZA3uEhaq8FBt+DZ87ZnNNST1vB0z9uym5ZMBjqziA10/qF07kN75XSwMx/o/P66bLqqoQBncTzQ9csXLivdzVdt/6HwZfGQu758UuosN191M1d8yEISDVh4qhd1btrrD4Ufi8TQ9f+Wu3qlcdK1cxDJ3Wu+z7mbBRfJ3Sve77ddbpHcvd69rrvFFsndq93rullqkd7t6V7HPTeL9G4/9/r2ndxCnKkBIth3c8u2m5BiQ9yx7+Guy23Z9UkG+uy7tu2zF0IsHezFD3o1Dm2nxMOhXtvw2fTqhY3kbLDjoS928dJ0HMpn+4vYdtxbP8nF4PTE4fWOl64nCYaQeydB9qwMgfgOsjwwwwbp5y7aPJoXG4yOO0m0Z2YwUMYRas/WUO4fTa49a0MsN4poe5aGeG8C6e5rQHYZpI60JLscVPtm+MWgOjR0IaSOJsbvCaqerfuA6tDW5ZA6nuMDgGpf+POhNHCcbRptv2Gpno2hpHCcfjob2wy/b0YMkv1RRmrN7ODUMzNI/UcpqjWz4aeekcFEcJSxWiM7IB3PS45OYp2tfSD1LA1Jg+Os1lraY6aenSG9cJzmuhEdJ7v96k5cnOx6Vi7npX0z8n7Jrmfq8mTXM3NPXurZuney61m7V7LrWXoAXtov6AcrvRHJrmfnXgpqa2a4gBuR7HqG7pPseobur6B2tu6Z7Hq27pnserYeRkHt7F3MUz0rF0LqaEspuqeC2hm6nKd6Zu4DqePZ3V9B7Wzdi6d6lu4LqU1631kcr6B22mnXe7x22vDSfvd4vGbqqaWdgfFqacdDPQPjlVKPf3o2xiukQ220szFeG/X4pmdjvC464pn9Hdf4PnpoZ+U+PLNvKLkPz/QM3UsP7czcm2d61u7JMz1b99VDO0v35ZlmoqZYFGWdLf48K50NZ1dYlVU4yxbXLjw+xZXaP4mX5063BujVCRMHpw/aDpgYuGBrgvFk/yRenjsd/vnxIzpNr08YOTgd9k/ujJw8vTWS8u4NHDRvpHyUn3HKZNp8uCqL65UtVm5m6nxV0/RNNdeWHHDWMds3Nldupmtq96ketnYwhM/0qY11QNU62H5+VHE+231w232mG6KW/eDKVb664t251ZrOBhsbaw0bPy+C2SIPZyX+VZpF+L7gkDrVYnm9qNnsJremXqx1Obsp9Rq9NE7PdLXWi/Vc08HqejnzWl/XxUzbf15XdUm1Iwxi0Av6ltd6HQYA9mxV/IwYKJZF7YJfZlV9u3DV3Ln6l99uGLOyXpg5wrJiwUz7EP/IfXrz0TuGUZdtg3CKh81VmdvmHXh5r1Xnc0y+WmGhYbP62RflUtc4Wpd5Ueb1bRi8oVOLdnkxNDTT1uZ1/tGhWeWW+Ty31q3w4nqFQ3ddObtngAXftS4JftKlvoKL5sH3xapuDOLadcUYvpXFjZ3Vpa+rv+e2nj8VeLHGhRYsTLrDcnfoF5v3fb09yrZHJR2ZbK2xPDjw7UEGXwO07c/6du3Qqvroyhp8iaOstOXm56L7mXU/y+6nvVpsjzbn5t3Pj3ciFrP9tcDSguG3AUwLF8bOLH+LmeC9zhauSxx/mJUVVjaDi+hAMqHSpDlE4ZiiKKZDFiouou5YpExAhzXHaSoiGTfHUCxpGrXnOcRelLbnRShVyKP2mNFI22OMP6I50HHEJcmY9lgxIVl7HKcRYzJsjhMepUk3tFSliknWHkdK0MZiMx6WwMFJNzgakUxaS2gdNQVZ+wIVFcQFpQ56GYUMgoJ1L3gihAgRBkuE3Pynsv1JsSHkbJmVH57ScncH764zHFfw6uL7Uhsc27xaI7TYbLl4rcurpm25PQK0/rfBewSzlyssUM0kJgg5UL/KlzhY6fIWRwzXz1e++GUGyM2LMniZlRoKNPj36xIMmOPtYu1KXZ98y5RO1/lydlvykGPQRTSztwldhYXNqpfu44n35yUTTSOYQABWebGKcegszlVM4nBVIGivXMXb45uitJWI4vZVo1t4mPK9lzcVl0q19lZp/Lmhq0/LxaoiyP3SHrJgXtfrP337bWXmbqmrb5a5KYuq8PU3plh+W3ifG/ctXexbHoaiOVouCL8zZCRX3jCWIoSa4zmLEmjnJRy+aF2Lo3J7VG+Psubo6rquXRlSRFbO1EHLBcWNqUE2vl5l/5xpt7K2MGAspPJl8dFVYXvckjJy8BWbIbsjRS0zZ6vbiu52Aprc4rZYfVwuwr13QRVXVteakrSHVfcREIDBj6gWcN7BH2xWzYub9UIbNy8WlpI92OUKehFR/clZA+voRFT20eWrpucnugp1w4Ery6KsGJbg0wLDK27dCrNyn9bVvKxXOA1qKxfV2szsCouwqjKb4Sy4zjhM6RrzxsQaRTED8v6D5m6vlg2CcTBvGrIEs7r6uHeMpjlaNF7FO71XcxoaazrQAYbzT4xHr+zsY+5uPoD3WXNUGb0A6YWz9VVD4U7b7tAXRY3ktbitb0CGjpZmezyvlwiSao1JLFbzGvSMac1AeIs604sViHfVJpcZuuAKBq9umhc4KGtkjMUK0YyZO5jA0U25JgvVSq/rgkg3Xxm3WMDQorjxuVsgbi3MI1ms19crU2NCusr11goRSYkRb/lo5W5gEfIFb1e4CBThDeUSn9c00BU5vL6F3xd5VeN9DHYFhqlRWDoanFu4jzhtPlXrmsgb3IBsWN3QeUdrqr1BSNGotW8aXwOXi9m8aUGOq9dXlN6AQ/NRN76qMVrq5EtyCJ34qOtP2afZh3K1LpFM6pnRCEgAbgE/BoScHPG4JiHiXR226eMGQPbL2ucLBFKAaA8/U/SDgEBH9bws6hprOssXHrWL0bVZrK7XTcBhPEhPiDobbOKPUqn7FM5o5V15G9OH4/Bjd4iBVJ/oAO5fzV3pmt7UhRZJUF4na232NljAJoCD5ralFd5afERwIZObckknal3W9DpveDjmgN1qjoyKDutV/anWwTctX206cyIcdMdgL+ovcGSduaivxNFi/JW/6vdW46+cBV9+HjITNQ4YPYxzpuLG0LiFOGcneagBpWMGRJA/aQnJpwRXLXS+Cjpsz342v02FQtfW+/JnWsmCNX0wDfpL/8rZ5uIi6ovebEbnZsg1xrMUbFbty0NSDnuvgx/evnwd/PDkx1efR9rHlE5fYUvIh5cIsqIOsttg7BV69oGPIfudOg1evnn3/O37N09eP3/x/O3zC67SXaAT5RvznUAOGiVUBi0MdwD8jUrkYwD+cojA/rSMjwY9tlHjKFZq96dDTx1Yot0Qz9mgsa4QCY7W9XhEZ0DSlTbB+3leBTe6CpbITpNMHiJ7Y/Hxo5u8ngd0WhvKnwVJmqsASiMo3c/XeYmqzSw0Kroq+F+BIxYybkmaMaDvUOhokDnokuCLgDqs19T/7Q8//h3tFfsfwd+dXher6psH8cAGZ0e2ToF3VABuLH+fl1UdoChx/zZ4kQsG/I/iOrjJ4c2Vg6PqIvD0AiRdz13wUZc5qakqIN0AXwaFb94AGXxzmgoOw3PUILolGIPlEda+fsCRvXCL5V3jGmcpgJofMbCGmUcZfIZqbtLQhmLseCUvDP4dYIJm8z3QpQNyFv6PKGaQBqkYv70rzg5WebOrceTOyWs8ZOnl91OmPzieWwSSLQJUCcRRgQ6qtTM5CvN9UqLgWTVNTw8fk58+gTfPn3/3IFPYi36N/6lewZrRhinO5GDUpuYOvi/KwF19HeS+m/RqVv58TRvQdTBHyR18p69XqGmq6usNkWzP7BBCXQ0uA6+A1qnR40cVUBPcNGTQIChAKvkbyndy3+Z8RT6+wXCCGxTqNkB1uGuDyzVjrPauiJS0yRQPyvEv26n9VNTVt+9MWSwWO5qkyW0Idco1N/t2h5d0SILwUuurf2B6WII3WC38wPxpCFvHbtdl1/jS0ZzxwLosPubI8fohCGj1MAT7cKw/+5+puCBAh+b3olgV5YOOTv46HjtPxUPTW4PymkhuQZo1MUFk18ybXlBITJ7/0OX+z39ONrXZej80deTGeyzykRK/eFQD0LtgTOEShGgWDmxFwvFhlvv/Evn87pdWXSC1foOlHTGskYP6VZb2IXIVJaY1ZaQ5svfk6Q5ZHQONowUdWobowYb1m0b90fyGRkVxX41Hxyibk7Cx/TTxuNaYmHSG3PUkeKe9a3JP/iBVEPQupOVGKU6xODTE4MtnyIpIh3p1SwP96mGC9JvgP9OWfzeyuy20DCro6yVU3hpJuLxeBWVxfTVf3E5at+7z6qOpfDFJOA55BMxQdat2SA30CdElIzs18195K+cMtrqP8g9N/Ui1CVT4ZsFQI1GhhRF39dF2K6v58Ax101J/wLpel+5MsXguaQwMhD4RnYjCAUubbaBmW6OtOPZmV1+XtO9WeN+Av9s1KtYkFyoc67pZuAebVzGphBiy8vgR7XB327wX7CIN2X258vkqryfR8KDfH2xUuq61+fD5F7rJ4/czqlKvrh7GUceUNUYCDlh7pa9+X6v3F+KPo6Lyslj+JnjdoxuKXgrYZUA3Z/7eohQZ1RfdSInPvrlkO3xInzxtPil4uUdldMMBUdl13Xzo0GNrxPSyo7PN/krmNpy+XuhbV1aIfrqFpShzVzUbNvTelLF2d5wdjhTcOy12B+dMw16XdLfU4rZJn0Op7+Ja5f2L5++eBy/fP3/9Lnjy9jnE2+u/vnsfPHnzXfDsyZs3P74Pnj4P3j7/6dWTZ8+/C/7+8v2LH//6Pnj943cvv//Hyzc/UP/g3bO3L396f25kzYe4yfHngzwZ54efmgV7SDQ9az+YuutDunH69G9FboMXOSRdUU7Sp4PDO05xx5sfY4b2BM1f62m0PYDqk0OaPKDvSn3VflhFvxmATPAPvcqDVRG8LVb5XSR0+DHTkPc6oHSfXT3MGj+AB7cb3w8yoC+C54vbKr9eTkPKXU5rPrv6U/A3na+uAOdJNcpQcfF18JMjlQWtPcXc5tbae63FkP++CF44fZSn76x17vDef/ldDN347r6LYcScmk9Y//RAW9FPVvly0kcS23ugj9F0auUujqKfVu76zpGN/Ojzkgw1UD3/XgA1eFvM2NsmBsjwBcQc1A1Ezb8N3pJxQGOnrG9uoX+AlRgYaF+AU208TSxvfing/gXHkKUfynwZvMoD9o36hk2sGgfi4uvgVaFtbyfBLHJUHO/o/sLmJpMHcO0l4dL9jsNxcm0/4KfPnF8/efkdfRKiV7f1nG4pcgucbWqBZfOkj5w+f/UOS9ncwrSZ5RftZ+SvnvwQ/OXlq1fP3242S35880B7GF9C+uz2MZqLVoZ+4y2o5s1H5qhRsgUqu7s2JMf5ZNIaDQ978iINAfUZ6KZY5v9Ba5LXm5ulnmszn4aB7ld6Ds2/LYpTYmh6ZObb2wW6nbKubmzWq9jygMfKEYctC5v728CNmMehgh2YSYmZTFKJg1Npt5JgsNY0n2nFSfurRsdbldMmOTi27q6/5u6b3Ac3mu7CKaZtEZ/PnvdNovUnHqnwoXJp92tjl6fSodk+/1SXurnptHpABfJ0R1Qb8F/TvZz0YgUiW9JvBZVB6dbBz9euqoMv2x+ohVMZxV9t7nbZ3SGaV5tOhm5Jd42pbacuyJrXVWDLYh1Yul8LEQZ7SbNDY4trukOp3epZbz5V6Cb9vhulLTDKVXPQtLQ6X9xSQrhx7gOOmit80/y+xsk+zYdCpftj6X6uuo2j5r4oHG4sXmP0cEE7dlBC/0OBphU9apZux6Lc09wSBXTvWWp28vpT/iK4cnVzdcxts3f2snViGxzdYNGd8hx5ICuKqrt3rUleu3N5c68TnN5tct02WfyqqNsp0JZPUOvs62BNeb013fVrprj1/y75a2u7Rt1GX/PbBsTmTff7gK77bDNohMWxgrk0QjZmd2Hxh/bx3vSLbIEKZUZP/2UyDMMI/5Kw+eIsDF1qXegz7317jpmQNz9F+1plUkQ+cjFFNb4rr2ScxmGkYqEsd3ES2chokzKTSWeQnhkSrI9l4k0inOJW6sePUpNxXDzhyqUJN3HiTKx5bExoEIQclZlJbZJxHSuFwcTSWK6k5DrhIYsiw41NhfBx6kTmRMwzy3wYZ8oI1CdGx1Jr77nkHJdxGctkrKxW1otYeptq+/iRilDIMKZZIkzEtAp9mniZ6cxlBrIiTuIklDCWasW1ijMXYY4YR8aFTVwaxpz5NNTScq9FEnKTCRVHPEpCb+FOZyyGzqxhictghYnECZNKYWOnQpFFjx9lIbNIM9Y5p3wKN0jH0zDDGITHYiKtSi1FmCQiEyZM4ThndOLBCXBuhLnhZZby2CvutOS4imbGqtTAUz5laRa6RDmqEyxkqE6s46HnYZYYxo3IwsePyNnKGx/F8Cou4KLMiyx1SYrhZ0hgaWQyYzHfjCcuNiJSzhgMg3nPZBR6JbxLmLDCGAwji32LFU/oAV7O4QyrAR/oGGbbk6GIABX6yjqk+RhZKDKx4B646o4TApKPNCEL44+dT1Rm4UYWW/gbM2NAFVbCa5WGUtDyxBYLwngS+yjhnGUWiHD4Lv3jRwbLGuosg5/hbud9rFNhvdMuyXxKT8135J0o1VqHkRGOSwDPZFHiWBwJC3B6IDhNlJY65irEcACeMIlwXVwjIwAbFVqmBdxElUemlUyySISIUY5V8EliU0mtuHaSR9IyrHBoOQakbCZkxLmMvY5TFjPlbQzkJTQ0B58hMoRXLEJgxSLGVFzidWJS74Ea+MiY1ElvGPp7bpyC2JURQiaV0kR4K8IINENceSeUyCwwnURKa9QuzoaZyoA4G3nbrs2YlY2yGHmUfqe3PZfoLZM0X2AOXAEsobhvjx8/2n9Fx9LCgMO/GLzCN6yCyRhpQ6w9J1bBmsZWszhOQ7ABFiMDTCHeEPQm0y7LPEYmRWqYlgz8Ao+mHrhGBDqByiE2zgLHCJns8SPMBwdYSBPGoU10pEA5LkkI1DH4RsdYt8RqmTCDhTKRcbDJEGAujRMGj2cyQaBZL1PAUiiMDVQBDAIZNlPW8tBGmQJVKc4c1sJa5RC/EkAB1WEEsYpdgtWMeQqU4U1MBAsaQphM8X8WecgQIERgJvgyKW/9Hw35vz1+/Gj3SrCNz50Bo2B8LAMmVQZneA5+krFNEfIWc0M8Ms81B8q8BcizKAM9wQXW4odWDpNFjojBT9ryBN6LeAg2UgL+pfQSOUleysDKznKWSODUGKw6qAjRLpgFN6aZ8JxryE40tEphCVKKAWZEGIGMMFmZxjEuhjF56+IMo8M1LDxvvHI8sjLLTKgMC1MkMAxWp0gFzgNFEosZcawffKC9ywTeIGbHcnKmsPAyTCUuDBKMfEZ/IsEDXbHLEI1WYnICgAhTH8lQOIbXmugypnhOHEYMfyZxxMDwDqyv8IMBq0BhiGTnQ6O1cAhBLSRwYMM0s2GEcyoCYKiKkIhuJCfF4CwNZ/s0hmtBYWkK8k8tUM1xXiFtSeQ5BTKNBawiDwqV0X6yjCMCqwIxZYwxiXdxkUzKOBNwdgbyTWMiNgU+8Jo5zIobzmJiOB0Bdsbpls7gZwliYKAQIDrFaIkqleFwpEL2FTGFAMhHN/jF4mGFEq/CzIMEEbVKIGiQGV0WmwhEg6jEdJGAGaCRItCQG2Eqi4A5RDqiDNSLjIRkDUYFLwnEBoss+AkzN05Yg6SrDMIU/gp1JJCCjZAeVIo8p3miLKI/BEyRawEYVGWxCDPuFbVPosg76xhNzjueRIAi+UAoDhqA7yx8j7yNvBrFIoOxCNGoUsFj7UwCZCMxglsi56TRkh5SICVoHu10ogH9zClNj7KCw8PMRDxu4he8yKVErskg1pCdFCAnEM+eMboQaaQ44TFQqSE1QgQNYjPEtyhLrNXAZ5RIj0TFhEM7h+wHkSVTxpm2EC+MiYyJWEsPKRNRSAHChPuQmBBQ4WGE3OWdR3zDn94iA8FBeKVi5CyKBdClx/Qip63RKReZjCKUSAYB5rmF5kJvYZAeQKoNNSF+vcKBgPyIsVzcS4NkiWBBSDoLcqPrCQexEDqO4JIELQ9RlmEElEt95mKLUy7TYCQFPYI0HYtUgFkcEyIFpPDTGp7GFN+QKER7FvHMcFGkbAPgQiMBpS6hnClDjijJBFgUbEIqQjPmI0u6FANGd5shOoxxMIMYh4KLLUbOwUGIRihKZE4VI6HFUHMcBx5sIJjQWHXk0EQhtjXUmKA4ihVrVBmYAu73MZOahXCPNchEUoEOmdNeIWdFtM8PbCBHI9Eh21BbKAKpRGIgpcFdPkMsQPMYZnXmswT0TplNI/qNQ5JFFkD2QUiA2BhEgksxBlLQ4BjSuyEAhYQGIkNASaAIE0W2swI+dkkIvRQDSBAwBmnIQAAioiWiw0G9pMiAWNgoefyIA1uOK44JgLEExAxaILgcSFqkCI8wQ7phGZQbOBlCF9UAGDhBWgThGAwKyjKEdhQQzp5DpRKEYwd2QlZAKpApR0WQgVmgUQ1NTiZJakMf4ZLaAAdIQTyVaQS3g3pTkSQxrR/CVkAYYgRKRJHzDJo0dLCMOqaJcs9jm2AxIcmgh4Afk2REokg+NFeohgwpA5yEBULV4nFVxHHCeMQUfONS4FtSxQIHQoAjOFjzWLoY3JyA8EPoL8SrAhYwPSwYzCDRIs8gUAxSDtK+R/SB3A1GQo8pBdGFtJ4OeR/CECzCkUfBYwY5A4UCspwBq0Kuw4EoxsA52qbQB/Ajy1IIRJz3CDQDLkdsWg0JbVCmOLhEGeBKUAVBosSHhHlIB8ShI/3JwLNImAmmiJIg9UbSyDB2gAXZDegF4yL8wF2K8jqCEeC0DEUDYiFzUBwpzqDeRPoxOoLuzyIrBPhRIr2T2EgYShmKhhT1IXSXjFGi8BQsrDVYW2Wo2BRlYHCrtaBEa1PEnZco18ADEClxJkEUGbFbljUOgKDN4hh8AK5CWIVeOJR1pFipFlQakgPyTycxCThIOheDMuCdGGpPgfdR5aAWAL9o1EWgJeV1SByNS0MboB1WAqwuYRFEhRpASCoWUIYhKunyWNjEQc4gGg1cF0JBZyncF4ekJWNJIPQiJLBZgbrdJECh9pQMIOc8kIbaMeVAlwH5IsnGEqROK+hRumTgGAOhhxIMSSVFwYiKUikoJQ81DrrCMhHrcVRhWAUJDRXT1SF7mSd5AMkrgBUUvRlqBmjKGCGbNllDoqbWkEkMhIRVjuIEagbesyliN8MaolBF7kRRrUANISQwYiEBNRtAi8FNGnGVIFEifMAkyL9Q61kWAaguQhQD/Mik4EsGFWaQHgSEP1Qy6tgYpTWOUIglLE7AARwjUfCrQgSBjqhYQ9EECRVBVUC0Y9LaIXGCjxgJBIPMgNQIdQAFC3jEIQMajCUcSIggpABBUAVKNDjPW1SiSHbgZEkSSGIxUNehmreNYoRK4KiFIEJdmJESj6HnOSIdWROQk1whvwkIVfg5SqlmSmkjAbqDpFIC3gUeUbthuqQTsS4QesIhkVuS8UhylKJgAUJMGeDFRSH0DP5LKcjwUhkClaKqPk0RIEgEHvhlqFCgIQTKFw6OQIIQMQMtMGZRfyMNoZ9A5kZYoLJBPQXAgA84R1ZH5IP1wUxIRgAIFwyAw4RiTbIDepjRGKASDORYCiLPwD5QqSpFsWplgpMepWkah0gsQDiqUCRCMKzEsjiEPXRLBCinwF+GaWE5oNKSzCIaYROJAyCEPEANY8lhYOSUNlo0lCZGiDrJxqmi5wOg4ESsS0Z4B3Q4mApsCNEHhHusFPgdsLYke6lml0gEVKfB7xHeQgJG4Y2cF8dhE0WZ0KTSNC0xoiCNNL6hj6adFO4TqoEY19B/wJuGFlNUdkMYIk8zihTocdARBIWIYFYoC7RyVPmRzjRFJCaLWiYEL6PE4VFE2SaC8EWZDHkMqS6IE+GbFKkFNSVSSZylCLIYyhNkB64EPyMlelL3CkuAqjWxkjbH4BdoQ49MyxCTUDekfhBkJo4jAAD0FEcQLcBmJJv4AM0DUKhLGSIEKd2FUK20zwMcMKrnQadQKKiYLAe2tfJUdaZxmiHbouxHRvRUWoG+gWGUe1C5VNYi3FHKUTVtYzLHNbI7ci3nCNOMlDYoXRFBckgxr02iiKNtEiIDp8h7PCYcEGWAQUKNHG4gflBBIe8B01FsMQBoVtQ2EO70B11AFM2uFRQ4RB/RGORwZKECIP/gTjAsZKgAQ0HhIwJSlH6aNCcQGRuqh2yMZAALxFBQDVDrSHNQ4D7NiPfALdA4QBriFmUf0i9GGoEPwGMyQ6QBDCEYG0xsMS6TwuWQcJmGtImR8SBcDYaJcAaewEjoiJpKgYcQGGRVIzDiGO2x5pZqG3BiQlICBBA63+w9oiTAqqXoieKd6JX0D3Q2dJEfX8tjhAB1CrB2eyhZ25fHh7U8VFqvmt/fPbtrX6W/u9bssKBmY6gmPJUgtJkF3rLQIaidIY0AkASN4OIQPRALwIyIHj+C2pJQioYKM+0Q4AkqfNS9GWnVNCM4WlI4UCjQmgJ41cBziHyBBgjwVMNRpENAnjJUCE8sGYp0hCFcFBGVO/Anah2mKLol7fdgiXFVUDZHbkTdAbWHdQJxg2CNBTkTrJMQy5holAAkSqCwIN6hTRJkjhBTjmPoP1SgtGnKYtrfgXCLsAAx6YeQYfgqTDXtqcENCdMJeAiq2jPSno5AjQhBJfD4UUhVI9EeqBniOIO+NhCJWiHsgD1pu3313upDoHEooUv24w+/MIK9r3G79XeNgfZqz+3Unh4BBti0Or2Pe9c179pFPPWFUOHtCIb2uO6KhLtGddfe2ulVAGE2ze4e1W7f7a6R3MUM/RFsvlBT6XMjuYw1mrGqcOcD1f5T3a4lwm+LlO4Jps3Dr5tnR7qlbh+AIwzK5dYysh9diR4EROhFMuHkGQhszolWXUSolnjXRZSaUIApUsGITWoRQz00I6bvhizAs2gVp4R7TvuXLoQn6JMfEIHAHCBjkMtZjIVqx4BoQR0V0Q4gcmUs8V8oNBCM4gA9Ws8g6jkYKW7G1PVDXoZf6D3ZvcuJKyJocpyL2zE3s/QCLIv/IrxLHkYuj1wzQ/QQ7ZUNagvWzElCTrfnIDXbc007vm3Ht+34tl1zDrZpzA0DdDZ6Z3ZtMIL2HD9qdWxJHLURR23kURt51EYdtVFHbaKjNlHTJoHHyaNZu06bV817WInIyH6Lg3Okc4TrMLnQ9IyA9oHVs0Vlqzpf6k/I6/RiUZgPEGDOh81b26f1bs7sHtm7OdM9AXrzcvMUZ7xO0192Jt0n49Z1sNeDBfvtw2DXdvsI6cHWaa81PZORQovRM8h7w2577QbNhgdw2iT/8wMbFA9tUD78pNVDjzF6aIPxw086eegxpqMMbnrRAx0/jUZwv9c4kPb7jMNhv4+8oI+6aEbjANPvE1/QZ9yi9/ukI2e0QYfow6MuDJb5ngbGrfgZA+L+kxiHhjMGxtHMGQPR/ScxDjRnDIxD0BkD02iie05++4D2iaFFzyteNU8Lc5/qSVfVq1V3h+n0vu0Dkyd1aR+sfBFxdOR7OZcL1bNqdPOr85OG3zwHm34HzudX9OD7iRNxq49uUawd3Y+H3tWka287l45uQZzs9gYfpaO751fGXQqSnYFpU2/u2Vxd0z2kky5NT/6/pB89rfvyCW96NyExbaJbiLR/QyGvczdtnZfalMU0VBZ6UnRs+r3Kq6mzoy7B0+vFwk2jiqbfm+nL2PSbJoKaLmOTYK/TNBHUdBmX6E5475JJdT0vmlvX94Ipdj0vmGm73pfMtOt50Uy7vhfMtOuphotT1q9l3+f1YhqxPFsUFYXptHm9y69WzZ82mKRI+jYG/vLSlGE8Lext8H6qStj2ukzaNCvzDEPNV9fTfN3reQkKt32nVVT9vmOL+NO9p0Xda2gKypcvdsLsNIwP4HWd1ZOR/E4vrltNMHGC3+l62pV2AGqf193B6P4mJmKCfk2nce30AN5df9old/2mQfAw5i6+bNd9KhE/pYPpVPHilh6Ykq8+TOr1fUF/IsfZfu+TwOe8j+G6LLZrebpDn/CfL9dzXeXTBN13hbluflXutV5P6vhT85c9Jnvx+R+XOl/sJY1pa/fi/etXwftiTRr2e7hk2gpS56dFXRfLi/p3RfCXf3fZV9Mv/ATKeXW7vGTCTy6oyJqOz/KJdNb2KuwFvZDD6aFn0zm36f0Xd5sVurTTr/tT6bq/O+Yu6P1OL9cTk0uLQcTzDYJw8n5B0/tv3bO7Ly10q+vsn85Mi7w3RVtTTenz43Xzx6TavD91k7jXeRrH97pOzC70N8mKPWYa2ANr/uQjPeTADkxrj+javzsH9b01elq5HPr73VqbTd27aRT1SftV8+iAd/NdgbxteCi9qOF2Bbet+IlWe7PathMHYszm18vNdbuN4W1bea4t77dVp9p2eOk1jAYbHliMTzWkKR1aTAYb8sPZp4NNRc9m3F+d73T54djn8UHZRB+2++vFyVWM+em2x0bF6YbNWo4FEJKMoWTODuc/hKVdh1GgGmh+HlsDnc6DbKDTGbQdzn0ont+6j3m12Vs9vRcrD6Zf7VWmZ/RbH2T/Tg8UPHOR/jK+pD9hWbm9XmMCZ3C9z8TQgGfPBNNAjzMxdbrHUHANtD4fZUNTPxdwAxc6E3kDUx8RgnwcmQ80vysAjwhuXAjyS0JwPOEP9BgB4KP5jAAwnwxgPhnAfBKA+SUAPpz6GADzyQDmkwEspgFYTAOwuAzA4hIAi8kAFpMBfDSfEQAWkwEsJgN4nLwZaD0OwIdTHwNgMRnAYjKA5TQAy2kAlpcBWF4CYDkZwHIygI/mMwLAcjKA5WQAy0kAlpcA+HDqYwAsJwNYTgawmgZgNQ3A6jIAq0sArCYDWE0G8NF8RgBYTQawmgxgNQnA6hIAH059DIDVZACryQCOpgE4mgbg6DIAR5cAOJoM4GgygI/mMwLA0WQAR5MBHE0CcHQJgA+nPgbA0WQAR2e27vp+oA8dF67/icrpmr8/v00Vv+145tMbcfw5Jy75tndL0OmO/OQ1x/TsO+lpUXyYcJvA1kofl0/zbJEXzd7I7X1ujz7cn/3x2fbzzP1m8uTHUM1mbr9Il3ywYb8YkmKwYV90SjnY8FBCSDXYtE+jsh9ODVzbdg3h9dtGQ23ZqdbxUOuD6SdD7Q5mnw61O5y8GpyTaviiZ1axocbRNor7HfhQh/h0hzvddnqT54z/hvaezrhy4BrDPj3d4S7XDvQa4eOhOY1x98DkxvqdT/X7aAAP7bGM8Du/yO/8Yr/zySAfnNxYv4upfhdT/T6aQYb2Esb6XVzsd3Gx38VlaD9KFXf7XU71u5zqd3kR2o+If4Lf5cV+l5f5XU1F+2FVNcLvaqrf1UV+Vxej/XBOU/yuLvN7NNXv0VS0H1YPI/weXeT36GK/Rxej/Whyfb83FdFoEbjX+mwO3Wt3lsL32p1lkL12nQQ8Sxx7zceJwL0O40TgsdtGicB9/w10GHbkoGoc9ukoEXjk3FEi8KSPB3qOcPbg5Mb6/awIPOX30QAe6HC31w+F1Vi/nxWBZ/1+VgSe9Tu/DO2HemuE38+KwFN+H80gA5JspNePpOMEv58VgWf9flYEDvtdTkX7kWq82+9nReApv0+j8IFeE7x+JB8n+P2sCBz2+1kReMrvairaj1Tj3X4/KwIH/X5WBJ71u7oY7UeTG+v3syLwlN/PisBTfo+mov1QWI31+1kReNbvZ0XgWb9Pey7Ba3SZfhv2uyX9Da7Lfsvhha7mtZ72C55/XZWuKhYfnd0OePpwX9FIPzd/gIP+9kZV098PCVnziCR6SBPvHt/UPdpJ0lP8mwcJCc6dEpKpRCXSSqPoYUuM/pAOPYJJRPQ4pJNfUWvZhvREZBdqljF6aODpxrsv4cLmmV3eeR+mGzsnvtjBz4M3qL/fPq7s+PX2/K/49fjRr2n99/71r9n/9/06MXvb/XS/7Uj+K77+tfb/fb/+NfvzXwpKI/Ltv1iGjfCgx2RHrn0d40Sc3qUSLv9qHpGphvM+PbrZpkmScs+shGSJFEYqwzQSXDGnhuzqMI4fP3L0QGV6wLUO2ZDi+L18DXrgwq/Tj/r8PX89pAf+/5s9fT2UBy6YfVd7bL4+f/5/Zwmiq5zMAAA=",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
