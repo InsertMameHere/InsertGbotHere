@@ -12862,12 +12862,6 @@
         "ShopId": 211
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%buyItem%56542%5590%211%4723%1%",
-        "SpamTimes": 1,
-        "Delay": 500
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 500
       },
