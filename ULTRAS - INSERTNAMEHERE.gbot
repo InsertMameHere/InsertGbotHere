@@ -201,7 +201,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "<-- Top up Pots -->",
+        "Text": "<-- Top up Pots (Experimental)-->",
         "Alpha": 255,
         "R": 220,
         "G": 220,
@@ -212,7 +212,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "topUpLifeSteal",
-        "Value2": "Yes"
+        "Value2": "No"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -12863,7 +12863,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
+        "Delay": 869
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
@@ -12932,6 +12932,7 @@
   "InfiniteAttackRange": true,
   "EnemyMagnet": true,
   "LagKiller": true,
+  "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
