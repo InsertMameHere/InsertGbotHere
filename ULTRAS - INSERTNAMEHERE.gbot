@@ -13103,14 +13103,15 @@
       "Malgor Insignia",
       "Nulgath Insignia",
       "Warden Insignia",
-      "The First Speaker Silenced"
+      "The First Speaker Silenced",
+      "Scroll of Life Steal",
+      "Scroll of Enrage",
+      "Gold Voucher 100k",
+      "Arcane Quill",
+      "Zealous Ink",
+      "Molten Heart",
+      "Volcanic Essence"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
