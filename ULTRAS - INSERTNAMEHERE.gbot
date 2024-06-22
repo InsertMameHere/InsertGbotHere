@@ -5669,6 +5669,10 @@
         "Value2": "1"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "Kasuko"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "5",
@@ -5732,6 +5736,10 @@
         "Text": "Monster HP less than",
         "Value1": "Whirlpool",
         "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "Kasuko"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -5806,6 +5814,10 @@
         "Value2": "1"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "Kasuko"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "1"
@@ -5875,6 +5887,10 @@
         "Text": "Monster HP less than",
         "Value1": "Whirlpool",
         "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "Kasuko"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
