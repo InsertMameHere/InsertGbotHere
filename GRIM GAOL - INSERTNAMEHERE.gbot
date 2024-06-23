@@ -1063,7 +1063,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Sage]",
+        "ItemName": "[Safe Pot]",
         "Safe": true
       },
       {
@@ -2356,8 +2356,7 @@
         "Map": "yulgar-1e99",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1,
-        "MapSwf": ""
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
@@ -2375,8 +2374,7 @@
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 9467,
         "SafeRelogin": true,
-        "Text": "9467",
-        "IsInProgress": true
+        "Text": "9467"
       }
     ]
   },
@@ -2389,12 +2387,6 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
