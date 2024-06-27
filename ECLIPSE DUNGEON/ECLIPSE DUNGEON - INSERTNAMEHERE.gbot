@@ -484,24 +484,24 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is not equipped",
-        "Value1": "[SafePot]",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[SafePot]",
-        "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not equipped",
         "Value1": "[SafeClass]",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "[SafeClass]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[SafePot]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[SafePot]",
         "Safe": true
       },
       {
@@ -3738,9 +3738,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2330,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 2330
         }
       },
       {
@@ -3814,9 +3812,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2330,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 2330
         },
         "CompleteTry": 5
       },
@@ -3838,22 +3834,19 @@
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 9304,
         "SafeRelogin": true,
-        "Text": "9304",
-        "CanComplete": true
+        "Text": "9304"
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 9305,
         "SafeRelogin": true,
-        "Text": "9305",
-        "CanComplete": true
+        "Text": "9305"
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 9303,
         "SafeRelogin": true,
-        "Text": "9303",
-        "CanComplete": true
+        "Text": "9303"
       }
     ]
   },
@@ -3869,7 +3862,8 @@
       "Sliver of Sunlight",
       "Sliver of Moonlight",
       "Rite of Ascension",
-      "Ecliptic Offering"
+      "Ecliptic Offering",
+      "Scroll of Enrage"
     ]
   },
   "Server": {
@@ -3884,6 +3878,7 @@
   "BotDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
@@ -3900,7 +3895,8 @@
       "Sliver of Sunlight",
       "Sliver of Moonlight",
       "Rite of Ascension",
-      "Ecliptic Offering"
+      "Ecliptic Offering",
+      "Scroll of Enrage"
     ]
   },
   "FollowName": "Player name"
