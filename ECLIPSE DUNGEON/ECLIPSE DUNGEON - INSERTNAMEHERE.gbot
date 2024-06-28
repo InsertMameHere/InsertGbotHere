@@ -3371,7 +3371,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 8,
+        "Index": 7,
         "IndexString": ""
       },
       {
@@ -3797,7 +3797,7 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Zealous Ink",
-        "Value2": "*"
+        "Value2": "5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
@@ -3866,14 +3866,9 @@
       "Scroll of Enrage"
     ]
   },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
-  },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
+  "EnableRejection": true,
   "RelogDelay": 5000,
   "BotDelay": 1000,
   "SkipDelayIndexIf": true,
