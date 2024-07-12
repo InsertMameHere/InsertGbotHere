@@ -1132,7 +1132,8 @@
         "Map": "ultratyndarius-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -2124,7 +2125,8 @@
         "Map": "ultraengineer-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -3124,7 +3126,8 @@
         "Map": "ultrawarden-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -4129,7 +4132,8 @@
         "Map": "ultraezrajal-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -5041,7 +5045,8 @@
         "Map": "lavarockshore-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -6140,7 +6145,8 @@
         "Map": "icewing-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
@@ -6213,7 +6219,8 @@
         "Map": "hydrachallenge-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
@@ -6291,7 +6298,8 @@
         "Map": "voidflibbi-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
@@ -6716,7 +6724,8 @@
         "Map": "whitemap-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -6788,7 +6797,8 @@
         "Map": "arcangrove-[RoomNum]",
         "Cell": "Potion",
         "Pad": "Right",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
@@ -6910,7 +6920,8 @@
         "Map": "spellcraft-[RoomNum]",
         "Cell": "Enter",
         "Pad": "Spawn",
-        "Try": 1
+        "Try": 1,
+        "MapSwf": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
@@ -6990,7 +7001,7 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Zealous Ink",
-        "Value2": "*"
+        "Value2": "5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
