@@ -590,6 +590,13 @@
         "Value2": "NULL"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "CurrMonster",
+        "Value2": "NULL"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -5702,12 +5709,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is not equipped",
-        "Value1": "[Legion Revenant]",
+        "Value1": "Legion Revenant",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Legion Revenant]",
+        "ItemName": "Legion Revenant",
         "Safe": true
       },
       {
@@ -5770,12 +5777,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is not equipped",
-        "Value1": "[Quantum Chronomancer]",
+        "Value1": "Quantum Chronomancer",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Quantum Chronomancer]",
+        "ItemName": "Quantum Chronomancer",
         "Safe": true
       },
       {
@@ -5838,12 +5845,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is not equipped",
-        "Value1": "[Lord Of Order]",
+        "Value1": "Lord Of Order",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Lord Of Order]",
+        "ItemName": "Lord Of Order",
         "Safe": true
       },
       {
@@ -5906,12 +5913,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is not equipped",
-        "Value1": "[ArchPaladin]",
+        "Value1": "ArchPaladin",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[ArchPaladin]",
+        "ItemName": "ArchPaladin",
         "Safe": true
       },
       {
@@ -6037,6 +6044,14 @@
         "Name": "FARMENCROACHINGSHADOWS"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdCancelTarget, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Spawn",
+        "Pad": "Enter"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
@@ -6070,8 +6085,69 @@
         "Label": "FARMFLIBBITIGIBLETS"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Helpiscoming"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "whitemap-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Count is greater than",
+        "Value1": "3",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 7,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "Helpiscoming"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Helpiscoming",
+        "Value2": "5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "voidflibbi-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CurrMonster",
+        "Value2": "FlibbitiestGibbet"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENSHBACKUP"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
@@ -6125,6 +6201,10 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "FARMGLACIALPINION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Helpiscoming"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -6201,6 +6281,10 @@
         "Name": "FARMHYDRAEYEBALL"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Helpiscoming"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
@@ -6223,6 +6307,10 @@
         "MapSwf": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
         "Tag": "Player",
         "Text": "Count is greater than",
@@ -6232,13 +6320,47 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
+        "Index": 7,
         "IndexString": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "Helpiscoming"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Helpiscoming",
+        "Value2": "5"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
+        "Index": 4,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "icewing-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CurrMonster",
+        "Value2": "Warlord Icewing"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENSHBACKUP"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -6264,6 +6386,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "RESPAWNENSH"
       },
@@ -6278,6 +6403,10 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "FARMFLIBBITIGIBLETS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Helpiscoming"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -6302,6 +6431,10 @@
         "MapSwf": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
         "Tag": "Player",
         "Text": "Count is greater than",
@@ -6311,13 +6444,47 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
+        "Index": 7,
         "IndexString": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "Helpiscoming"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Helpiscoming",
+        "Value2": "5"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
+        "Index": 4,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "hydrachallenge-[RoomNum]",
+        "Cell": "h90",
+        "Pad": "Left",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CurrMonster",
+        "Value2": "Hydra Head 90"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENSHBACKUP"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -6352,6 +6519,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "RESPAWNENSH"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Helpiscoming",
+        "Value2": "5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENSHBACKUP"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
@@ -6674,6 +6852,93 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "ATTACKENSHP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKENSHBACKUP"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "5",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[CurrMonster]",
+        "Value2": "Hydra Head 90"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "[CurrMonster]",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMENCROACHINGSHADOWS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENSHBACKUP"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonstersLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Count is less than",
+        "Value1": "3",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMENCROACHINGSHADOWS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENSHBACKUP"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
