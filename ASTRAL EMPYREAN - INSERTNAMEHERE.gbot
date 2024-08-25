@@ -1,0 +1,2115 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "ASTRAL EMPYREAN - by INSERTNAMEHERE",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "astralshrine",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RESPAWNASEM"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Variables -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Top up Pots (Experimental)-->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "topUpLifeSteal",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "topUpEnrage",
+        "Value2": "No"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- MODIFICATION NOT RECOMMENDED -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "ArchPaladin",
+        "Value2": "ArchPaladin"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Chaos Avenger",
+        "Value2": "Chaos Avenger"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Legion Revenant",
+        "Value2": "Legion Revenant"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "LightCaster",
+        "Value2": "LightCaster"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Lord Of Order",
+        "Value2": "Lord Of Order"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Quantum Chronomancer",
+        "Value2": "Quantum Chronomancer"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "StoneCrusher",
+        "Value2": "StoneCrusher"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Verus DoomKnight",
+        "Value2": "Verus DoomKnight"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Weapons -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Dauntless",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Valiance",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Arcanas",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Awe Blast",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Praxis",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Ravenous",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Elysium",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Lacerate",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Health Vamp",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Helms -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "WizHelm",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "LuckHelm",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "ForgeHelm",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Capes -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Absolution",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Avarice",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Penitence",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Vainglory",
+        "Value2": "X X X DO NOT EQUIP ON ANY X X X "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Lament",
+        "Value2": "NOT NEEDED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Pots/Scrolls -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "SafePot",
+        "Value2": "Potent Malevolence Elixir"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Enrage",
+        "Value2": "Scroll of Enrage"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Life Steal",
+        "Value2": "Scroll of Life Steal"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Player Names -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player 1",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player 2",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player 3",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player 4",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player 5",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player 6",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Room -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "RoomNum",
+        "Value2": "---> FILL THIS IN <---"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "CurrBoss",
+        "Value2": "NULL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "NextBoss",
+        "Value2": "NULL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Start Check -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[topUpLifeSteal]",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BUYLIFESTEAL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[topUpEnrage]",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BUYENRAGE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "STARTCHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEM"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[SafePot]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[SafePot]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 1]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "EQUIP4ASEMP1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 2]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "EQUIP4ASEMP2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 3]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "EQUIP4ASEMP3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 4]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "EQUIP4ASEMP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 5]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "EQUIP4ASEMP5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 6]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "EQUIP4ASEMP6"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEMP1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Legion Revenant]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Legion Revenant]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Praxis]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Praxis]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Penitence]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Penitence]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[WizHelm]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[WizHelm]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Enrage]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Enrage]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEMP2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[StoneCrusher]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[StoneCrusher]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Ravenous]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Ravenous]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Absolution]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Absolution]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[ForgeHelm]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[ForgeHelm]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Enrage]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Enrage]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEMP3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Lord Of Order]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Lord Of Order]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Awe Blast]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Awe Blast]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Penitence]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Penitence]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[LuckHelm]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[LuckHelm]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Enrage]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Enrage]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEMP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[LightCaster]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[LightCaster]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Valiance]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Valiance]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Penitence]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Penitence]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[WizHelm]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[WizHelm]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEMP5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[ArchPaladin]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[ArchPaladin]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "EQUIP4ASEMP6"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Verus DoomKnight]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Verus DoomKnight]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not equipped",
+        "Value1": "[Enrage]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[Enrage]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "HP",
+        "Value2": "14700000,28000000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "9803",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 9803
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "astralshrine-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "CurrBoss",
+        "Value2": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "NextBoss",
+        "Value2": "END"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Count is greater than",
+        "Value1": "5",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "RESPAWNASEM"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 1]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 2]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 3]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 4]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 5]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
+        "Tag": "This player",
+        "Text": "Name equals",
+        "Value1": "[Player 6]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP6"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKASEMP1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "5",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKASEMP2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "5",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKASEMP3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Resurgence",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 5]",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 6]",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetHealthBetween, Grimoire",
+        "Tag": "This player",
+        "Text": "Target health betwwen",
+        "Value1": "[HP]",
+        "Value2": "false"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetHealthBetween, Grimoire",
+        "Tag": "This player",
+        "Text": "Target health betwwen",
+        "Value1": "13800000,14400000",
+        "Value2": "false"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "5",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "13800000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "HP",
+        "Value2": "1,28000000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKASEMP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 5]",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 6]",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKASEMP5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Hymn of Light",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 5]",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 6]",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ATTACKASEMP6"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "5",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthLessThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP less than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKASEMP6"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ASTRALEMPYREANDEFEATED"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "Astral Empyrean"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterHealthGreaterThan, Grimoire",
+        "Tag": "Monster",
+        "Text": "Monster HP greater than",
+        "Value1": "Astral Empyrean",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "RESPAWNASEM"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "9803",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "9803",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ASTRALEMPYREAN"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 9803
+        },
+        "CompleteTry": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "HELPCHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "<-- Checks -->",
+        "Alpha": 255,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+        "Alpha": 255,
+        "R": 169,
+        "G": 69,
+        "B": 69
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "HELPCHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "whitemap-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 5000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersGreaterThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Count is greater than",
+        "Value1": "5",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[CurrBoss]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[NextBoss]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "END"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BUYLIFESTEAL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Scroll of Life Steal"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 17,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "arcangrove-[RoomNum]",
+        "Cell": "Potion",
+        "Pad": "Right",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 211
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Scroll of Life Steal",
+        "Qty": 99
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "25"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Scroll of Life Steal",
+        "Qty": 75
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Scroll of Life Steal",
+        "Qty": 50
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Scroll of Life Steal",
+        "Qty": 25
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "90"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Scroll of Life Steal",
+        "Qty": 10
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Scroll of Life Steal",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Scroll of Life Steal",
+        "Value2": "99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Var is equal to Var",
+        "Value1": "[topUpEnrage]",
+        "Value2": "Yes"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BUYENRAGE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "STARTCHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BUYENRAGE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Scroll of Enrage",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "STARTCHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "spellcraft-[RoomNum]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Gold Voucher 100k"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Arcane Quill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Zealous Ink"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 2330,
+          "CanComplete": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 693
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Scroll of Enrage",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "STARTCHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Gold Voucher 100k",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Gold Voucher 100k",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Arcane Quill",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Arcane Quill",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Zealous Ink",
+        "Value2": "5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Zealous Ink",
+        "Qty": 5
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 2330,
+          "CanComplete": true
+        },
+        "CompleteTry": 5
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 12,
+        "IndexString": ""
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "",
+  "Description": "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",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Scroll of Enrage",
+      "Scroll of Life Steal"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "socket5.aq.com"
+  },
+  "ExitCombatBeforeRest": true,
+  "EnablePickup": true,
+  "RelogDelay": 5000,
+  "BotDelay": 1000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "EnemyMagnet": true,
+  "LagKiller": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "RestartOnAFK": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "FollowName": "Player name",
+  "AutoZone": "Auto Zone - Astral Empyrean"
+}
