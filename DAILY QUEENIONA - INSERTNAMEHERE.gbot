@@ -449,6 +449,10 @@
         "Name": "QUEENIONAFARM"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdVarEqualVar, Grimoire",
         "Tag": "Misc",
         "Text": "Var is equal to Var",
