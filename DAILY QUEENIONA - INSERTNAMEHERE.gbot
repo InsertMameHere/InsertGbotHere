@@ -505,6 +505,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -515,9 +518,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "RESPAWNIONAFARM"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -899,16 +899,9 @@
       "Lothian's Lightning"
     ]
   },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
-  },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
   "RelogDelay": 5000,
-  "BotDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "EnemyMagnet": true,
