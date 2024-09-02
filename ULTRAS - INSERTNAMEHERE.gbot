@@ -1239,6 +1239,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -2377,6 +2380,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -3283,6 +3289,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -4147,6 +4156,9 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "Boss",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5170,6 +5182,9 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "Boss",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -6203,6 +6218,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -7193,6 +7211,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -8154,6 +8175,12 @@
       "Arcane Quill",
       "Zealous Ink"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
