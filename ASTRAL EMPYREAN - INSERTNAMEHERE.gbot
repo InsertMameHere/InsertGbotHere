@@ -982,6 +982,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -992,9 +995,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "RESPAWNASEM"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNameEquals, Grimoire",
