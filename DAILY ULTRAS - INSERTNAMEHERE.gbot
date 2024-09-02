@@ -1310,6 +1310,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -1437,9 +1440,8 @@
         "Label": "TYNDARIUSDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKTYNDP1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1513,9 +1515,8 @@
         "Label": "TYNDARIUSDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKTYNDP2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1534,14 +1535,74 @@
         "Monster": "Ultra Avatar Tyndarius"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "1"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Resurgence",
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
-        "Index": "2"
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -1577,9 +1638,8 @@
         "Label": "TYNDARIUSDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 9,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKTYNDP3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1596,6 +1656,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
         "Monster": "Ultra Avatar Tyndarius"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Hymn of Light",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
@@ -1688,9 +1761,8 @@
         "Label": "TYNDARIUSDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 16,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKTYNDP4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -2317,6 +2389,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -2444,9 +2519,8 @@
         "Label": "ENGINEERDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENGP1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -2520,9 +2594,8 @@
         "Label": "ENGINEERDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENGP2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -2552,6 +2625,71 @@
         "Monster": "Defense Drone"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Resurgence",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "1"
@@ -2565,11 +2703,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetAuraLessThan, Grimoire",
@@ -2595,9 +2728,8 @@
         "Label": "ENGINEERDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENGP3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -2625,6 +2757,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
         "Monster": "Defense Drone"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Hymn of Light",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
@@ -2717,9 +2862,8 @@
         "Label": "ENGINEERDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 18,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKENGP4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -3332,6 +3476,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -3490,9 +3637,8 @@
         "Label": "WARDENDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 14,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKWARDP1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -3544,9 +3690,8 @@
         "Label": "WARDENDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 7,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKWARDP2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -3644,9 +3789,8 @@
         "Label": "WARDENDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 14,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKWARDP3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -3751,9 +3895,8 @@
         "Label": "WARDENDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 15,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKWARDP4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -4352,6 +4495,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -4464,9 +4610,8 @@
         "Label": "EZRAJALDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKEZRAP1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -4525,9 +4670,8 @@
         "Label": "EZRAJALDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKEZRAP2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -4540,6 +4684,71 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "ATTACKEZRAP3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Resurgence",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -4555,11 +4764,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetAuraLessThan, Grimoire",
@@ -4585,9 +4789,8 @@
         "Label": "EZRAJALDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKEZRAP3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -4600,6 +4803,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "ATTACKEZRAP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Hymn of Light",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
@@ -4692,9 +4908,8 @@
         "Label": "EZRAJALDEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 15,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKEZRAP4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5279,6 +5494,9 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -5399,9 +5617,8 @@
         "Label": "KASUKODEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 10,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKASUP1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5475,9 +5692,8 @@
         "Label": "KASUKODEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKASUP2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5507,6 +5723,71 @@
         "Monster": "Kasuko"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Resurgence",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "1"
@@ -5520,11 +5801,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetAuraLessThan, Grimoire",
@@ -5550,9 +5826,8 @@
         "Label": "KASUKODEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 11,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKASUP3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5580,6 +5855,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
         "Monster": "Kasuko"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Hymn of Light",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
@@ -5672,9 +5960,8 @@
         "Label": "KASUKODEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 18,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKASUP4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -6240,6 +6527,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdSetSpawn, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -6349,9 +6639,8 @@
         "Label": "KALADEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKALAP1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -6414,9 +6703,8 @@
         "Label": "KALADEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 9,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKALAP2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -6435,6 +6723,71 @@
         "Monster": "Batara Kala"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Resurgence",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 1]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 2]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 3]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Health is less than",
+        "Value1": "[Player 4]",
+        "Value2": "75"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "1"
@@ -6448,11 +6801,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Monster": "*",
         "Index": "4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Monster": "*",
-        "Index": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdTargetAuraLessThan, Grimoire",
@@ -6478,9 +6826,8 @@
         "Label": "KALADEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 9,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKALAP3"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -6497,6 +6844,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
         "Monster": "Batara Kala"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerAuraLessThan, Grimoire",
+        "Tag": "Aura",
+        "Text": "Player aura value less than",
+        "Value1": "Hymn of Light",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Monster": "*",
+        "Index": "2",
+        "Force": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersHPLessThan, Grimoire",
@@ -6589,9 +6949,8 @@
         "Label": "KALADEFEATED"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 16,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ATTACKKALAP4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -8452,12 +8811,6 @@
       "Hydra Eyeball",
       "Flibbitigiblets"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
