@@ -1260,7 +1260,7 @@
         "Tag": "Item",
         "Text": "Is not in temp",
         "Value1": "Cracked Elemental Stone",
-        "Value2": "8"
+        "Value2": "14"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1313,7 +1313,7 @@
         "Tag": "Item",
         "Text": "Is not in temp",
         "Value1": "Crystalized Tooth",
-        "Value2": "8"
+        "Value2": "14"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1563,7 +1563,7 @@
         "Tag": "Item",
         "Text": "Is not in temp",
         "Value1": "Elemental Tear",
-        "Value2": "8"
+        "Value2": "20"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3239,7 +3239,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ENCHANTED SCALES"
+        "Name": "ENCHANTED SCALE"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
@@ -3302,7 +3302,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "FARM ENCHANTED SCALES"
+        "Name": "FARM ENCHANTED SCALE"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
@@ -4358,5 +4358,6 @@
     "$values": []
   },
   "AntiCounter": true,
-  "FollowName": "Player name"
+  "FollowName": "Player name",
+  "AutoZone": ""
 }
