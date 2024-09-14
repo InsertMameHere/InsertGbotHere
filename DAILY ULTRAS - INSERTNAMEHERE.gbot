@@ -240,7 +240,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "doUltraKasuko",
-        "Value2": "No"
+        "Value2": "OUT OF SEASON"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -8693,7 +8693,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2330
+          "QuestID": 2330,
+          "CanComplete": true
         }
       },
       {
@@ -8767,7 +8768,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2330
+          "QuestID": 2330,
+          "CanComplete": true
         },
         "CompleteTry": 5
       },
@@ -8811,6 +8813,12 @@
       "Hydra Eyeball",
       "Flibbitigiblets"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "socket5.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
